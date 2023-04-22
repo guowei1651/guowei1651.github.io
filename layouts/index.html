@@ -6,43 +6,41 @@
     </div>
     <div class="col-lg-9 col-xl-8 text-center">
       <p class="lead">{{ .Params.lead | safeHTML }}</p>
-      <a class="btn btn-primary btn-lg px-4 mb-2" href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}prologue/introduction/" role="button">{{ i18n "get-started" }}</a>
-      <p class="meta">Open-source MIT Licensed. <a href="https://github.com/h-enk/doks">GitHub v{{ $data := getJSON "/package.json" }}{{ $data.version }}</a></p>
     </div>
   </div>
 </section>
 {{ end }}
 
 {{ define "sidebar-prefooter" }}
-  {{ if eq $.Site.Language.LanguageName "English" }}
+  {{ if eq $.Site.Language.LanguageName "Chinese" }}
   <section class="section section-sm">
     <div class="container">
       <div class="row justify-content-center text-center">
         <div class="col-lg-5">
-          <h2 class="h4">Security aware</h2>
-          <p>Get A+ scores on <a href="https://observatory.mozilla.org/analyze/doks.netlify.app">Mozilla Observatory</a> out of the box. Easily change the default Security Headers to suit your needs.</p>
+          <h2 class="h4">微服务实践</h2>
+          <p>从技术角度来为微服务实践建立一个完备可供参考的体系。在业务代码被AI工具所编写的当下，提供出差异化竞争的的技术成长路线。</p>
         </div>
         <div class="col-lg-5">
-          <h2 class="h4">Fast by default ⚡️</h2>
-          <p>Get 100 scores on <a href="https://googlechrome.github.io/lighthouse/viewer/?gist=59aafe464a68f8bc30b8e9a636d5b053">Google Lighthouse</a> by default. Doks removes unused css, prefetches links, and lazy loads images.</p>
+          <h2 class="h4">架构设计</h2>
+          <p>架构设计是一项平衡的艺术。要保证软件简单、有效、可靠、完备的特点实则不易。本系列介绍怎么样实现这样的一个架构。</p>
         </div>
         <div class="col-lg-5">
-          <h2 class="h4">SEO-ready</h2>
-          <p>Use sensible defaults for structured data, open graph, and Twitter cards. Or easily change the SEO settings to your liking.</p>
+          <h2 class="h4">DevOps实践</h2>
+          <p>DevOps在发展过程中，不断地细化产生了各种各样的DevOps变种。但在实际的生产过程中仍然有这各种各样的反模式。</p>
         </div>
       </div>
       <div class="row justify-content-center text-center">
         <div class="col-lg-5">
-          <h2 class="h4">Full text search</h2>
-          <p>Search your Doks site with FlexSearch. Easily customize index settings and search options to your liking.</p>
+          <h2 class="h4">公司级的软件过程实践</h2>
+          <p>过程管理的解决团队沟通与功能上线时间与功能价值成反比的问题。并从大规模的基础之上阐述公司在软件过程中需要的完成的工作。</p>
         </div>
         <div class="col-lg-5">
-          <h2 class="h4">Page layouts</h2>
-          <p>Build pages with a landing page, blog, or documentation layout. Add custom sections and components to suit your needs.</p>
+          <h2 class="h4">IoT技术</h2>
+          <p>好玩，有趣，极客，跟踪各种各样的IoT技术中最新，最好玩的技术。</p>
         </div>
         <div class="col-lg-5">
-          <h2 class="h4">Dark mode</h2>
-          <p>Switch to a low-light UI with the click of a button. Change colors with variables to match your branding.</p>
+          <h2 class="h4">随笔</h2>
+          <p>反思，持续改进，随笔</p>
         </div>
       </div>
     </div>

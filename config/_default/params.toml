@@ -1,7 +1,7 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "Doks"
+title = "Wales Kuo"
 titleSeparator = "-"
 titleAddition = "Modern Documentation Theme"
 description = "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
@@ -11,7 +11,7 @@ description = "Doks is a Hugo theme for building secure, fast, and SEO-ready doc
 
 ## Open Graph
 images = ["doks.png"]
-ogLocale = "en_US"
+ogLocale = "zh_ZH"
 domainTLD = "doks.netlify.app"
 titleHome = "Doks Theme"
 
@@ -87,7 +87,7 @@ editPage = false
 lastMod = false
 
 [sections]
-  sectionNav = ["docs", "guides"]
+  sectionNav = ["microservice", "guides"]
 
 [options]
   lazySizes = true
