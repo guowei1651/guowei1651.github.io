@@ -12,10 +12,8 @@ weight: 20501
 toc: true
 ---
 
-[微服务实践目录](https://www.jianshu.com/p/f3d5a02757f1)，可以参见连接。
-
-# 参考：
-# [美团点评SQL优化工具SQLAdvisor开源](https://tech.meituan.com/2017/03/09/sqladvisor-pr.html)
+## 参考：
+[美团点评SQL优化工具SQLAdvisor开源](https://tech.meituan.com/2017/03/09/sqladvisor-pr.html)
 [SOAR(SQL Optimizer And Rewriter)是一个对SQL进行优化和改写的自动化工具。 由小米人工智能与云平台的数据库团队开发与维护。](https://github.com/XiaoMi/soar/)
 
 http://calcite.apache.org/develop/
