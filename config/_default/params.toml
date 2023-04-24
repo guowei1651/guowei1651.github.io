@@ -87,7 +87,7 @@ editPage = false
 lastMod = false
 
 [sections]
-  sectionNav = ["microservice", "guides"]
+  sectionNav = ["microservice", "architecture"]
 
 [options]
   lazySizes = true
