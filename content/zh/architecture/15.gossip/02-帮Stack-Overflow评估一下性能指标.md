@@ -23,7 +23,7 @@ images: []
 * #### 部署结构：
 这三篇文章主要说明了2016时Stack Overflow的各项内容。本文中主要是根据这三篇文章进行一些数据的分析并将原始数据记录在这里。
 
-![Stack Overflow架构](https://upload-images.jianshu.io/upload_images/2454595-d08dbde7e91b8483.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Stack Overflow架构](images/architecture/15-02-01.webp)
 部署结构图如上图所示，在这里各个服务的情况如下：
 |编号|服务|节点个数|
 |:-:|:-:|:-:|

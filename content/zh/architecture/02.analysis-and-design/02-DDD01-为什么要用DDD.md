@@ -4,7 +4,7 @@ lead: "架构设计01 分析与设计"
 date: 2023-04-22T12:52:56+08:00
 lastmod: 2023-04-22T12:52:56+08:00
 draft: false
-images: []
+images: ["images/architecture/02-02-01-01.webp"]
 menu:
   architecture:
     parent: "02.analysis-and-design"
@@ -53,7 +53,7 @@ toc: true
 
 所以需要对软件设计与决策提供全局框架，并把握每个层次的关键点。
 
-![软件层次](https://upload-images.jianshu.io/upload_images/2454595-dac30c1d90583ee5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/540)
+![软件层次](images/architecture/02-02-01-01.webp)
 
 理解清楚你所使用的解决方案在哪个层次，并解决了哪些问题。哪些问题是未被意识到的，未被解决的。战略设计  与  战术设计在不同的层次中完成。架构设计不可能能用一张图或者一个文档描述清楚所有的内容。
 

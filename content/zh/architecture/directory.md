@@ -4,7 +4,7 @@ description: "架构设计的目录"
 date: 2023-04-22T13:02:19+08:00
 lastmod: 2023-04-22T13:02:19+08:00
 draft: false
-images: []
+images: ["images/architecture/00-01.webp"]
 menu:
   architecture:
     parent: "directory"
@@ -21,7 +21,7 @@ toc: true
 本系列的流程是到底什么是架构？然后引入架构怎么设计？架构设计中包括哪些要素？顺着下去就是到底使用哪些工具，需要展示出来哪些内容才可以设计出一个比较好的架构？然后我们所有的东西都应该是需要有质量的，那架构设计的质量应该怎样考量？架构质量通过后，落地措施应该怎样落地？落地之后怎样进行演变？架构老化之后怎样进行遗留系统的改造？
 
 基于此时此刻对于架构设计的认知。而根据邓宁-克鲁格效应，对一件事的认知会不断的变化。所以，这个目录会不断的变化。
-![image.png](https://upload-images.jianshu.io/upload_images/2454595-be13deb5dc0706f2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/740)
+![image.png](images/architecture/00-01.webp)
 
 ## 目录
 

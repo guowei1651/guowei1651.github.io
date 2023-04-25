@@ -9,14 +9,14 @@ images: []
 
 原文是[What’s the difference between SaaS / IaaS / PaaS / aPaaS / HpaPaaS?](https://blog.kintone.com/business-with-heart/difference-saas-iaas-paas-apaas-hpapaas)
 
-![What’s the difference between SaaS / IaaS / PaaS / aPaaS / HpaPaaS?](https://upload-images.jianshu.io/upload_images/2454595-3b37460496171907.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/740)
+![What’s the difference between SaaS / IaaS / PaaS / aPaaS / HpaPaaS?](images/architecture/14-08-01.webp)
 
 -------------------
 2019年9月16日 鲍比·兰卡斯特
 
 过去20年中，互联网服务的增长引入了一组新的缩写词，用于描述不同的解决方案，如SaaS / IaaS / PaaS / [aPaaS](https://blog.kintone.com/business-with-heart/no-coding-apaas-solutions-a-win-win-for-it-departments) / [HpaPaaS](https://resources.kintone.com/gartner-hpapaas-magic-quadrant-2018)之类的缩写词。这些首字母缩写词可能会有些混乱，因此我们将分解它们之间的区别，以便您找到适合您的解决方案。
 
-![](https://upload-images.jianshu.io/upload_images/2454595-0f19a6088d11d7fe.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/740)
+![](images/architecture/14-08-02.webp)
 
 # SaaS（软件即服务）
 
@@ -30,7 +30,7 @@ images: []
 
 相关：[解释了10个低码行业术语](https://blog.kintone.com/business-with-heart/10-low-code-terms-explained)
 
-![](https://upload-images.jianshu.io/upload_images/2454595-fe1c22ceb92b575a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/740)
+![](images/architecture/14-08-03.webp)
 
 # PaaS（平台即服务）
 
@@ -40,7 +40,7 @@ images: []
 
 上面的PaaS来自IaaS解决方案，该解决方案提供了从基础结构控件到开发平台控件的更多堆栈功能。从IaaS到PaaS的同时，SaaS平台也同步发展了越来越多的平台功能，这催生了aPaaS（应用程序平台即服务）。SaaS应用程序（如Salesforce）开始向下移动，并提供了更多的软件开发功能，以便用户可以自定义和构建SaaS应用程序。这些aPaaS平台对希望构建应用而无需学习编码的新一代“公民开发人员”特别有用。如今，许多SaaS应用程序都提供了软件开发功能，可将其移至aPaaS领域。因此，PaaS和aPaaS在某些方面非常相似，因为它们都致力于为Web应用程序提供软件开发服务。通过查看PaaS和aPaaS的起源，您可以了解它们的区别。 PaaS解决方案是从提供更多堆栈功能的IaaS解决方案发展而来的。 aPaaS解决方案是从提供更多向下堆栈功能的SaaS解决方案发展而来的。 
 
-![](https://upload-images.jianshu.io/upload_images/2454595-41230ea125e15e27.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/740)
+![](images/architecture/14-08-04.webp)
 
  （PaaS是从提供更多上层功能的IaaS解决方案演变而来的，而aPaaS解决方案是从提供更多下层功能的SaaS解决方案演变而来。）
 
@@ -50,21 +50,21 @@ images: []
 
 这使我们成为加入“即服务”行列的最新缩写：[HpaPaaS](https://resources.kintone.com/gartner-hpapaas-magic-quadrant-2018)（高效能应用平台即服务）解决方案。 HpaPaaS解决方案是对应用程序平台即服务解决方案的进一步发展，但高度关注速度和开发人员的生产力。诸如Kintone之类的HpaPaaS解决方案提供了软件开发解决方案，可帮助开发人员快速构建Web应用程序而无需编写代码。随着公司开始授权“公民开发人员”构建应用程序，他们开始寻找使这些公民开发人员可以有效构建的应用程序数量最大化的方法。诸如Kintone之类的HpaPaaS解决方案使公民开发人员能够迅速将其想法转化为可运行的应用程序。
 
-![](https://upload-images.jianshu.io/upload_images/2454595-703b8641643aa57c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/740)
+![](images/architecture/14-08-05.webp)
 
 （与标准的aPaaS解决方案相比，HpaPaaS解决方案在混合中增加了额外的要素，速度，并提供了更快的软件开发功能。）
 
 最后，这是我想分享的有趣推文。
 
 用培根解释on-prem，IaaS，PaaS和SaaS [图像源未知，不是我...]
-![](https://upload-images.jianshu.io/upload_images/2454595-6b529ab956446734.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/360)
+![](images/architecture/14-08-06.webp)
 
  如果您知道其他任何首字母缩写词，并希望查看我们的解释，请在下面评论！
 
 不要忘记查看Gartner发布的有关HpaPaaS解决方案的最新报告。**立即免费下载[Gartner 2019企业低代码应用平台魔力象限](https://resources.kintone.com/gartner-enterprise-low-code-platforms-2019)报告的副本。**
 
 
-[![](https://upload-images.jianshu.io/upload_images/2454595-5050cf778afc1f14.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)](https://blog.kintone.com/hs-fs/hub/1857320/hub_generated/resized/e2747050-123a-4215-a342-716a19e51cb3.jpeg)
+[![](images/architecture/14-08-07.webp)](https://blog.kintone.com/hs-fs/hub/1857320/hub_generated/resized/e2747050-123a-4215-a342-716a19e51cb3.jpeg)
 
 关于作者
 鲍比·兰卡斯特

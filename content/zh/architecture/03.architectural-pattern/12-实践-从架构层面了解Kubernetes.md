@@ -4,7 +4,7 @@ lead: "架构设计30 架构模式"
 date: 2023-04-22T12:52:56+08:00
 lastmod: 2023-04-22T12:52:56+08:00
 draft: false
-images: []
+images: ["images/architecture/03-12-01.webp"]
 menu:
   architecture:
     parent: "03.architectural-pattern"
@@ -46,20 +46,20 @@ Ansible为服务配置、服务升级、运行环境的管理比K8s更为灵活�
 
 ## 1.1 用户概念
 
-![Kubernetes用户概念](https://upload-images.jianshu.io/upload_images/2454595-bc7cdd529a9ca7d1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/540)
+![Kubernetes用户概念](images/architecture/03-12-01.webp)
 
 K8s的核心概念以及之间的关系。这里的概念都是给用户来操作、管理K8s中的对象所使用的。在K8s的使用过程中是理解这些概念并了解作用原理。
 
 ## 1.2 控制面过程
 
 控制面包括的业务有定义转换、选择节点、部署服务、通信控制、节点管理、服务监控、权限控制等。而这些业务基本上都落在apiserver，controller，scheduler，kubelet，proxy组件之上。他们的关系如下图所示：
-![K8s架构](https://upload-images.jianshu.io/upload_images/2454595-1342359c6ac927c8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/740)
+![K8s架构](images/architecture/03-12-02.webp)
 
 业务在组件之间的控制流的交织形成了K8s的控制面。本节主要讨论控制面中几个较为有名的过程。
 
 ### 1.2.1 资源过程
 
-![API Server请求处理过程](https://upload-images.jianshu.io/upload_images/2454595-39dc9075d9c3ad9f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![API Server请求处理过程](images/architecture/03-12-03.webp)
 
 在资源过程中主要描述的是资源的下发过程。资源下发过程中以API Server为中心完整触发、转换、调度、启动等过程。从图中可以看到各个组件都以List-Watch的方式进行触发和处理过程的管理工作。
 
@@ -67,7 +67,7 @@ K8s的核心概念以及之间的关系。这里的概念都是给用户来操�
 
 这里展示的只是Kubelet中的SyncLoop过程，而Kubelet中的PLEG、自动过程、Informer、垃圾回收过程等都与syncLoop相关。Kubelet 的工作主要是围绕一个 SyncLoop 来展开，借助 go channel，各组件监听 loop 消费事件，或者往里面生产 pod 相关的事件，整个控制循环由事件驱动运行。可以用下图来表示：
 
-![Kubelet SyncLoop](https://upload-images.jianshu.io/upload_images/2454595-25f530c30c11dd8e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/740)
+![Kubelet SyncLoop](images/architecture/03-12-04.webp)
 
 1. 用户从http，静态文件以及APIServer对pod的修改通过PodConfigchannel传递到syncLoop；
 2. 另外一方面，PLEG会周期(默认1s)通过relist从CRI获取所有pod当前状态并且跟之前状态对比产生Pod的event发送到syncLoop;
@@ -76,7 +76,7 @@ K8s的核心概念以及之间的关系。这里的概念都是给用户来操�
 5. syncPod一方面通过containerManager更新non-runtime的信息，例如QoS，Cgroup信息；另外一方面通过CRI更新pod的状态；
 
 ### 1.2.3 资源调度过程
-![资源调度过程](https://upload-images.jianshu.io/upload_images/2454595-35b178682ebcf24f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/740)
+![资源调度过程](images/architecture/03-12-05.webp)
 
 k8s中的Scheduler Framework的设计。其中核心包括：Filter，Score，Bind。
 
