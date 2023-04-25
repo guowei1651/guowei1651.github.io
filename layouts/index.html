@@ -1,0 +1,59 @@
+{{ define "main" }}
+<section class="section container-fluid mt-n3 pb-3">
+  <div class="row justify-content-center">
+    <div class="col-lg-12 text-center">
+      <h1 class="mt-0">{{ .Title }}</h1>
+    </div>
+    <div class="col-lg-9 col-xl-8 text-center">
+      <p class="lead">{{ .Params.lead | safeHTML }}</p>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ define "sidebar-prefooter" }}
+  {{ if eq $.Site.Language.LanguageName "Chinese" }}
+  <section class="section section-sm">
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <div class="col-lg-5">
+          <h2 class="h4">微服务实践</h2>
+          <p>从技术角度来为微服务实践建立一个完备可供参考的体系。在业务代码被AI工具所编写的当下，提供出差异化竞争的的技术成长路线。</p>
+        </div>
+        <div class="col-lg-5">
+          <h2 class="h4">架构设计</h2>
+          <p>架构设计是一项平衡的艺术。要保证软件简单、有效、可靠、完备的特点实则不易。本系列介绍怎么样实现这样的一个架构。</p>
+        </div>
+        <div class="col-lg-5">
+          <h2 class="h4">DevOps实践</h2>
+          <p>DevOps在发展过程中，不断地细化产生了各种各样的DevOps变种。但在实际的生产过程中仍然有这各种各样的反模式。</p>
+        </div>
+      </div>
+      <div class="row justify-content-center text-center">
+        <div class="col-lg-5">
+          <h2 class="h4">公司级的软件过程实践</h2>
+          <p>过程管理的解决团队沟通与功能上线时间与功能价值成反比的问题。并从大规模的基础之上阐述公司在软件过程中需要的完成的工作。</p>
+        </div>
+        <div class="col-lg-5">
+          <h2 class="h4">IoT技术</h2>
+          <p>好玩，有趣，极客，跟踪各种各样的IoT技术中最新，最好玩的技术。</p>
+        </div>
+        <div class="col-lg-5">
+          <h2 class="h4">随笔</h2>
+          <p>反思，持续改进，随笔</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{ end }}
+{{ end }}
+
+{{ define "sidebar-footer" }}
+<section class="section section-sm container-fluid">
+  <div class="row justify-content-center text-center">
+    <div class="col-lg-9">
+      {{- .Content -}}
+    </div>
+  </div>
+</section>
+{{ end }}
