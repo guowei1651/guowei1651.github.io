@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>05.设计原则 on</title><link>https://guowei1651.github.io/architecture/05.design-principles/</link><description>Recent content in 05.设计原则 on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sat, 22 Apr 2023 12:52:56 +0800</lastBuildDate><atom:link href="https://guowei1651.github.io/architecture/05.design-principles/index.xml" rel="self" type="application/rss+xml"/><item><title>01 概要</title><link>https://guowei1651.github.io/architecture/05.design-principles/01-%E4%BB%8B%E7%BB%8D/</link><pubDate>Sat, 22 Apr 2023 12:52:56 +0800</pubDate><guid>https://guowei1651.github.io/architecture/05.design-principles/01-%E4%BB%8B%E7%BB%8D/</guid><description>奥卡姆剃刀
+正交四原则
+康威定律
+NWR原理
+You Aren&amp;rsquo;t Gonna Need It
+单体应用优先策略
+GRASP 通用职责分配软件模式
+接口隔离原则（Interface Segregation Principle，ISP）：一个模块与另一个模块之间的依赖性，应该依赖于尽可能小的接口。
+依赖倒置原则（Dependence Inversion Principle，DIP）：高层模块不应该依赖于低层模块，它们应该依赖于抽象接口。
+无环依赖原则（Acyclic Dependencies Principle，ADP）：不要让两个模块之间出现循环依赖。怎么解除循环依赖？见上一条。
+组合 / 聚合复用原则（Composition/Aggregation Reuse Principle，CARP）：当要扩展功能时，优先考虑使用组合，而不是继承。
+高内聚与低耦合（High Cohesion and Low Coupling，HCLC）：模块内部需要做到内聚度高，模块之间需要做到耦合度低。这是判断一个模块是在做一个业务还是多个业务的依据。如果是在做同一个业务，那么它所有的代码都是内聚的，相互有较强的依赖。
+惯例优于配置（Convention over Configuration，COC）：灵活性会增加复杂性，所以除非这个灵活性是必须的，否则应尽量让惯例来减少配置，这样才能提高开发效率。如有可能，尽量做到 “零配置”。
+命令查询分离（Command Query Separation，CQS）：读写操作要分离。在定义接口方法时，要区分哪些是命令（写操作），哪些是查询（读操作），要将它们分离，而不要揉到一起。
+关注点分离（Separation of Concerns，SOC）：将一个复杂的问题分离为多个简单的问题，然后逐个解决这些简单的问题，那么这个复杂的问题就解决了。当然这条说了等于没说，难在如何进行分离，最终还是归结到对业务的理解上。
+单一职责（Single Responsibility），一个服务应当承担尽可能单一的职责，服务应基于有界的上下文（bounded context，通常是边界清晰的业务领域）构建，服务理想应当只有一个变更的理由（类似Robert C. Martin讲的：A class should have only one reason to change），当一个服务承担过多职责，就会产生各种耦合性问题，需要进一步拆分使其尽可能职责单一化。
+关注分离（Separation of Concerns），跨横切面逻辑，例如日志分析、监控、限流、安全等等，尽可能与具体的业务逻辑相互分离，让开发人员能专注于业务逻辑的开发，减轻他们的思考负担，这个也是有界上下文（bounded context）的一个体现。
+模块化（Modularity）和分而治之（Divide &amp;amp; Conquer），这个是解决复杂性问题的一般性方法，将大问题（如单块架构）大而化小（模块化和微服务化），然后分而治之。
+参考： # 9.包和命名空间(译)
+软件开发的 22 条黄金法则
+云设计模式
+学会这10个设计原则，离架构师又进了一步！！！
+软件设计七大原则</description></item><item><title>02 KISS</title><link>https://guowei1651.github.io/architecture/05.design-principles/02-kiss/</link><pubDate>Sat, 22 Apr 2023 12:52:56 +0800</pubDate><guid>https://guowei1651.github.io/architecture/05.design-principles/02-kiss/</guid><description>背景 # 大道至简
+大道至简的过程 # 作者认为需要给更加深入的理解一项事务才能从中抽丝剥茧，取得其中的真理。而真理就是对这件事最根本的认知。正如司马迁在《史记》中所说的：
+天下熙熙，皆为利来；天下攘攘，皆为利往。
+这就是对世间各种事情的最为本质的理解。
+不同层次 # 参考 # 架构设计原则之我见（一）：反思 KISS 原则 为什么系统越简单，宕机时间越少？</description></item><item><title>03 知识最少原则</title><link>https://guowei1651.github.io/architecture/05.design-principles/03-%E7%9F%A5%E8%AF%86%E6%9C%80%E5%B0%91%E5%8E%9F%E5%88%99/</link><pubDate>Sat, 22 Apr 2023 12:52:56 +0800</pubDate><guid>https://guowei1651.github.io/architecture/05.design-principles/03-%E7%9F%A5%E8%AF%86%E6%9C%80%E5%B0%91%E5%8E%9F%E5%88%99/</guid><description/></item><item><title>04 无状态服务</title><link>https://guowei1651.github.io/architecture/05.design-principles/04-%E6%97%A0%E7%8A%B6%E6%80%81%E6%9C%8D%E5%8A%A1/</link><pubDate>Sat, 22 Apr 2023 12:52:56 +0800</pubDate><guid>https://guowei1651.github.io/architecture/05.design-principles/04-%E6%97%A0%E7%8A%B6%E6%80%81%E6%9C%8D%E5%8A%A1/</guid><description/></item></channel></rss>
