@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>06. 新技术 on</title><link>https://guowei1651.github.io/microservice/06.new-technology/</link><description>Recent content in 06. 新技术 on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sat, 22 Apr 2023 12:52:56 +0800</lastBuildDate><atom:link href="https://guowei1651.github.io/microservice/06.new-technology/index.xml" rel="self" type="application/rss+xml"/><item><title>01 DataWay</title><link>https://guowei1651.github.io/microservice/06.new-technology/01dataway/</link><pubDate>Sat, 22 Apr 2023 12:52:56 +0800</pubDate><guid>https://guowei1651.github.io/microservice/06.new-technology/01dataway/</guid><description>https://www.hasor.net/web/overview/about.html https://cloud.tencent.com/developer/article/1618748 https://www.hasor.net/web/overview/catalog.html https://gitee.com/zycgit/hasor https://www.oschina.net/p/dataql https://github.com/zycgit/hasor https://www.bookstack.cn/read/Hasor-4.1.0-zh/580e0b53293a1c96.md https://www.jianshu.com/p/437e9aa9677b</description></item><item><title>02 Electron</title><link>https://guowei1651.github.io/microservice/06.new-technology/02electron/</link><pubDate>Sat, 22 Apr 2023 12:52:56 +0800</pubDate><guid>https://guowei1651.github.io/microservice/06.new-technology/02electron/</guid><description>Electron是GitHub开发的一个开源框架。它允许使用Node.js和Chromium完成桌面GUI应用程序的开发。Electron现已被多个开源Web应用程序用于前端与后端的开发，著名项目包括GitHub的Atom和微软的Visual Studio Code。 维基百科
+开发公司： Linux基金会 系统平台： IA-32、x86-64、ARM 许可协议： MIT許可證 开发者： GitHub 官网：electronjs.org 平台： IA-32， x86-64， ARM架构 编写时间： C++， JavaScript， Objective-C， Python</description></item><item><title>02 GraphQL</title><link>https://guowei1651.github.io/microservice/06.new-technology/03graphql/</link><pubDate>Sat, 22 Apr 2023 12:52:56 +0800</pubDate><guid>https://guowei1651.github.io/microservice/06.new-technology/03graphql/</guid><description>参考： # 从后端视角认识 GraphQL
+GraphQL 到底怎么用？看看这个例子就知道了
+开发速度快 10 倍！Airbnb 用 GraphQL+Apollo 做到了
+使用 GraphQL 定制数据结构
+GraphQL简介
+GraphQL入门
+GraphQL 简介：原理及其使用
+GraphQL 实践(一): GraphQL 简介
+GraphQL 从入门到实践
+30分钟理解GraphQL核心概念
+如何为老板节省几个亿之graphql介绍
+五年时间，我们怎样构建一个 GraphQL API 组合？
+PayPal：如何在你的公司扩展GraphQL？
+用了6个月的GraphQL，真香！
+REST将会过时，而GraphQL则会长存
+分分钟将REST转换为GraphQL
+https://spec.graphql.cn/#
+GraphQL Landscape</description></item></channel></rss>
